@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T18:16:37.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="17.4.6" etag="3OVUWdstCaOvw8GygKic" type="github"><diagram id="FOi2-EpuZHr3b7eVVD5n">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-31T18:25:12.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="uHJZLiqWjPRmPkJzLUJ0" version="17.4.6" type="github">
+  <diagram id="FOi2-EpuZHr3b7eVVD5n" name="Page-1">
+    <mxGraphModel dx="782" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-17" value="&amp;lt;extend&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=open;startFill=0;dashed=1;startSize=10;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-1" target="mewiTAmD4-f6dFIrwqx7-8">
+          <mxGeometry x="-0.0826" y="-14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-1" value="Запуск приложения" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-2" target="mewiTAmD4-f6dFIrwqx7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-1" target="mewiTAmD4-f6dFIrwqx7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-5" value="Поиск пути" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-6" value="Ввод начала пути" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-8" value="Добавление города" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-19" value="&amp;lt;include&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;endSize=9;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-9" target="mewiTAmD4-f6dFIrwqx7-11">
+          <mxGeometry x="0.0615" y="-20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-9" value="Добавление дороги" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-11" value="Добавление веса дороги" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-12" value="Удаление всех элементов&lt;br&gt;(городов и дорог)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-20" value="&amp;lt;extend&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=open;startFill=0;dashed=1;startSize=10;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-1" target="mewiTAmD4-f6dFIrwqx7-9">
+          <mxGeometry x="-0.0826" y="-14" relative="1" as="geometry">
+            <mxPoint x="225" y="360" as="sourcePoint" />
+            <mxPoint x="255" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-21" value="&amp;lt;extend&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=open;startFill=0;dashed=1;startSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-1" target="mewiTAmD4-f6dFIrwqx7-12">
+          <mxGeometry x="-0.0826" y="-14" relative="1" as="geometry">
+            <mxPoint x="235" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-22" value="&amp;lt;extend&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=open;startFill=0;dashed=1;startSize=10;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-1" target="mewiTAmD4-f6dFIrwqx7-5">
+          <mxGeometry x="-0.0826" y="-14" relative="1" as="geometry">
+            <mxPoint x="245" y="380" as="sourcePoint" />
+            <mxPoint x="275" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mewiTAmD4-f6dFIrwqx7-23" value="&amp;lt;include&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;endSize=9;" edge="1" parent="1" source="mewiTAmD4-f6dFIrwqx7-5" target="mewiTAmD4-f6dFIrwqx7-6">
+          <mxGeometry x="0.0615" y="-20" relative="1" as="geometry">
+            <mxPoint x="530" y="455" as="sourcePoint" />
+            <mxPoint x="610" y="465" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
