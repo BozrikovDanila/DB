@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T18:01:36.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="17.4.6" etag="-4yBz9KNfA4ufbmk2ihS" type="github"><diagram id="8poJg-r2ZbONXEa7-rua">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-31T18:16:01.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="7NCZ-4Dr-14SxByLi7Vg" version="17.4.6" type="github">
+  <diagram id="8poJg-r2ZbONXEa7-rua" name="Page-1">
+    <mxGraphModel dx="1609" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-10" value="&lt;font style=&quot;font-size: 13px&quot;&gt;Рисование дороги&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-11">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint x="-60" y="310" as="sourcePoint" />
+            <mxPoint x="80" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-11" value="Запуск приложения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="284" width="140" height="52" as="geometry">
+            <mxRectangle x="130" y="510" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-15" target="8J3oci3PE5Mf4Ci7WWgA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-28" value="Введены некорректные исходные данные &lt;br&gt;или не существует дорои между городами" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-15" target="8J3oci3PE5Mf4Ci7WWgA-17">
+          <mxGeometry x="-0.0435" y="-130" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-29" value="Нажата кнопка кнопка &quot;Добавить&quot; &lt;br&gt;и введено количество городов" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-15" target="8J3oci3PE5Mf4Ci7WWgA-18">
+          <mxGeometry x="0.0345" y="27" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-31" value="Нажата кнопка &lt;br&gt;&quot;Добавить вершину&quot;/&lt;br&gt;&quot;Добавить ребро&quot;/&lt;br&gt;&quot;Удалить элемент&quot;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.829;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-15" target="8J3oci3PE5Mf4Ci7WWgA-19">
+          <mxGeometry x="0.4103" y="75" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-34" value="Нажата кнопка &quot; Поиск&quot;, &lt;br&gt;введен начальный город" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-15" target="8J3oci3PE5Mf4Ci7WWgA-22">
+          <mxGeometry x="0.3191" y="-53" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-15" value="Ожидание действий от пользователя" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="284" width="240" height="52" as="geometry">
+            <mxRectangle x="130" y="510" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-27" value="Нажатие кнопки &quot;ОК&quot;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-17" target="8J3oci3PE5Mf4Ci7WWgA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-17" value="Отображение сообщения об ошибки" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="240" height="52" as="geometry">
+            <mxRectangle x="130" y="510" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-30" value="Отобажены города на карте" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-18" target="8J3oci3PE5Mf4Ci7WWgA-15">
+          <mxGeometry x="0.0345" y="17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-18" value="Рисование городов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="284" width="240" height="52" as="geometry">
+            <mxRectangle x="130" y="510" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-32" value="Отображение &lt;br&gt;элемента в окне" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-19" target="8J3oci3PE5Mf4Ci7WWgA-15">
+          <mxGeometry x="-0.1753" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-19" value="Рисование или удаление элемента" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="550" width="240" height="52" as="geometry">
+            <mxRectangle x="130" y="510" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-36" value="Отображение стоимости &lt;br&gt;крайчайшего пути" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="1" source="8J3oci3PE5Mf4Ci7WWgA-22">
+          <mxGeometry x="0.0298" y="-3" relative="1" as="geometry">
+            <mxPoint x="130" y="340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-22" value="Поиск кратчайшего пути, проходящего по всем вершинам 1 раз" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;rounded=1;html=1;shadow=0;sketch=0;glass=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="460" width="430" height="52" as="geometry">
+            <mxRectangle x="130" y="510" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-23" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;glass=0;sketch=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-24" value="" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="8J3oci3PE5Mf4Ci7WWgA-23" parent="1" target="8J3oci3PE5Mf4Ci7WWgA-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-175" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8J3oci3PE5Mf4Ci7WWgA-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;glass=0;sketch=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
